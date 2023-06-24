@@ -1,0 +1,8 @@
+geth --datadir node/ init genesis.json
+
+
+geth --datadir node1 --port 30311 --bootnodes enode://dcb11a8186a51d7893e6cbd4cfe1db72b9ddc3522984148ef05cc977533d2a8236efd0e426ab3684acfb3f56a2f6c58dae0fda4b30000862c481d74f3cb014a1@192.168.42.201:0?discport=30312  --networkid 9350 --ws --ws.port 8551 --ws.api eth,net,web3 --ws.origins '*'
+
+
+
+
